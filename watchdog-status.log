@@ -1,24 +1,80 @@
-[2025-07-17 19:10:44] 🚀 Watchdog bắt đầu...
-[2025-07-17 19:10:44] ❌ [A1TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:10:44] 🚀 [A1TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:10:45] ❌ [A2TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:10:45] 🚀 [A2TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:10:45] ❌ [A3TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:10:45] 🚀 [A3TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:10:45] ❌ [A4TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:10:45] 🚀 [A4TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:10:45] ❌ [A5TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:10:45] 🚀 [A5TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:11:15] ⚠️ [A5TrumMafia] Trạng thái không ổn (ALIVE-MENU 2025-07-17T12:11:12.793Z) → restart
-[2025-07-17 19:11:15] 🛑 [A5TrumMafia] Đang dừng process cũ (PID: 91828)
-[2025-07-17 19:11:16] 🚀 [A5TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:13:16] ❌ [A1TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:13:16] 🚀 [A1TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:13:16] ❌ [A2TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:13:16] 🚀 [A2TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:13:16] ❌ [A3TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:13:16] 🚀 [A3TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:13:16] ❌ [A4TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:13:16] 🚀 [A4TrumMafia] Đã chạy lại bot.
-[2025-07-17 19:13:16] ❌ [A5TrumMafia] Không chạy → khởi động lại
-[2025-07-17 19:13:16] 🚀 [A5TrumMafia] Đã chạy lại bot.
+[2025-07-17 19:49:22] 🚀 Watchdog bắt đầu...
+[2025-07-17 19:49:22] ❌ [A1TrumMafia] Không chạy → khởi động lại
+[2025-07-17 19:49:22] 🚀 [A1TrumMafia] Đã chạy lại bot.
+[2025-07-17 19:49:22] ❌ [A2TrumMafia] Không chạy → khởi động lại
+[2025-07-17 19:49:22] 🚀 [A2TrumMafia] Đã chạy lại bot.
+[2025-07-17 19:49:22] ❌ [A3TrumMafia] Không chạy → khởi động lại
+[2025-07-17 19:49:22] 🚀 [A3TrumMafia] Đã chạy lại bot.
+[2025-07-17 19:49:22] ❌ [A4TrumMafia] Không chạy → khởi động lại
+[2025-07-17 19:49:22] 🚀 [A4TrumMafia] Đã chạy lại bot.
+[2025-07-17 19:49:22] ❌ [A5TrumMafia] Không chạy → khởi động lại
+[2025-07-17 19:49:23] 🚀 [A5TrumMafia] Đã chạy lại bot.
+[2025-07-17 19:49:53] ❌ [A3TrumMafia] Không chạy → khởi động lại
+[2025-07-17 19:49:53] 🚀 [A3TrumMafia] Đã chạy lại bot.
+[2025-07-17 19:49:53] ⚠️ [A4TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T12:49:49.439Z) → restart
+[2025-07-17 19:49:53] 🛑 [A4TrumMafia] Đang dừng process cũ (PID: 88860)
+[2025-07-17 19:49:53] 🚀 [A4TrumMafia] Đã chạy lại bot.
+[2025-07-17 19:50:53] ❌ [A1TrumMafia] Không chạy → khởi động lại
+[2025-07-17 19:50:53] 🚀 [A1TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:41:42] ⚠️ [A1TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:41:41.084Z) → restart
+[2025-07-17 23:41:42] 🛑 [A1TrumMafia] Đang dừng process cũ (PID: 85208)
+[2025-07-17 23:41:42] 🚀 [A1TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:41:42] ⚠️ [A3TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:41:40.599Z) → restart
+[2025-07-17 23:41:42] 🛑 [A3TrumMafia] Đang dừng process cũ (PID: 91352)
+[2025-07-17 23:41:42] 🚀 [A3TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:41:42] ⚠️ [A5TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:41:41.738Z) → restart
+[2025-07-17 23:41:42] 🛑 [A5TrumMafia] Đang dừng process cũ (PID: 83200)
+[2025-07-17 23:41:43] 🚀 [A5TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:42:13] ⚠️ [A1TrumMafia] Trạng thái không ổn (ALIVE-LOBBY 2025-07-17T16:42:08.334Z) → restart
+[2025-07-17 23:42:13] 🛑 [A1TrumMafia] Đang dừng process cũ (PID: 79340)
+[2025-07-17 23:42:13] 🚀 [A1TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:42:13] ⚠️ [A3TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:42:08.485Z) → restart
+[2025-07-17 23:42:13] 🛑 [A3TrumMafia] Đang dừng process cũ (PID: 94080)
+[2025-07-17 23:42:13] 🚀 [A3TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:16] ⚠️ [A1TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:14.770Z) → restart
+[2025-07-17 23:59:16] 🛑 [A1TrumMafia] Đang dừng process cũ (PID: 95048)
+[2025-07-17 23:59:16] 🚀 [A1TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:16] ⚠️ [A2TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:12.314Z) → restart
+[2025-07-17 23:59:16] 🛑 [A2TrumMafia] Đang dừng process cũ (PID: 75904)
+[2025-07-17 23:59:16] 🚀 [A2TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:16] ⚠️ [A3TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:15.077Z) → restart
+[2025-07-17 23:59:16] 🛑 [A3TrumMafia] Đang dừng process cũ (PID: 94296)
+[2025-07-17 23:59:16] 🚀 [A3TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:16] ⚠️ [A4TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:16.872Z) → restart
+[2025-07-17 23:59:16] 🛑 [A4TrumMafia] Đang dừng process cũ (PID: 91700)
+[2025-07-17 23:59:17] 🚀 [A4TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:17] ⚠️ [A5TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:14.756Z) → restart
+[2025-07-17 23:59:17] 🛑 [A5TrumMafia] Đang dừng process cũ (PID: 66312)
+[2025-07-17 23:59:17] 🚀 [A5TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:47] ⚠️ [A1TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:42.684Z) → restart
+[2025-07-17 23:59:47] 🛑 [A1TrumMafia] Đang dừng process cũ (PID: 82900)
+[2025-07-17 23:59:47] 🚀 [A1TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:47] ❌ [A2TrumMafia] Không chạy → khởi động lại
+[2025-07-17 23:59:47] 🚀 [A2TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:48] ⚠️ [A3TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:43.065Z) → restart
+[2025-07-17 23:59:48] 🛑 [A3TrumMafia] Đang dừng process cũ (PID: 88592)
+[2025-07-17 23:59:48] 🚀 [A3TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:48] ⚠️ [A4TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:43.276Z) → restart
+[2025-07-17 23:59:48] 🛑 [A4TrumMafia] Đang dừng process cũ (PID: 36836)
+[2025-07-17 23:59:48] 🚀 [A4TrumMafia] Đã chạy lại bot.
+[2025-07-17 23:59:48] ⚠️ [A5TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T16:59:48.400Z) → restart
+[2025-07-17 23:59:48] 🛑 [A5TrumMafia] Đang dừng process cũ (PID: 13972)
+[2025-07-17 23:59:48] 🚀 [A5TrumMafia] Đã chạy lại bot.
+[2025-07-18 00:00:18] ⚠️ [A1TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T17:00:18.828Z) → restart
+[2025-07-18 00:00:18] 🛑 [A1TrumMafia] Đang dừng process cũ (PID: 93352)
+[2025-07-18 00:00:18] 🚀 [A1TrumMafia] Đã chạy lại bot.
+[2025-07-18 00:00:18] ⚠️ [A2TrumMafia] Trạng thái không ổn (ALIVE-LOBBY 2025-07-17T17:00:14.045Z) → restart
+[2025-07-18 00:00:19] 🛑 [A2TrumMafia] Đang dừng process cũ (PID: 93088)
+[2025-07-18 00:00:19] 🚀 [A2TrumMafia] Đã chạy lại bot.
+[2025-07-18 00:00:19] ⚠️ [A4TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T17:00:14.527Z) → restart
+[2025-07-18 00:00:19] 🛑 [A4TrumMafia] Đang dừng process cũ (PID: 95420)
+[2025-07-18 00:00:19] 🚀 [A4TrumMafia] Đã chạy lại bot.
+[2025-07-18 00:00:19] ⚠️ [A5TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T17:00:14.860Z) → restart
+[2025-07-18 00:00:19] 🛑 [A5TrumMafia] Đang dừng process cũ (PID: 96220)
+[2025-07-18 00:00:19] 🚀 [A5TrumMafia] Đã chạy lại bot.
+[2025-07-18 00:00:49] ⚠️ [A2TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T17:00:45.406Z) → restart
+[2025-07-18 00:00:49] 🛑 [A2TrumMafia] Đang dừng process cũ (PID: 86648)
+[2025-07-18 00:00:49] 🚀 [A2TrumMafia] Đã chạy lại bot.
+[2025-07-18 00:00:49] ⚠️ [A5TrumMafia] Trạng thái không ổn (ALIVE 2025-07-17T17:00:45.761Z) → restart
+[2025-07-18 00:00:49] 🛑 [A5TrumMafia] Đang dừng process cũ (PID: 92236)
+[2025-07-18 00:00:50] 🚀 [A5TrumMafia] Đã chạy lại bot.
