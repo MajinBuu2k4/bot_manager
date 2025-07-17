@@ -1,9 +1,4 @@
 watchdog-status.log
-logs/A1TrumMafia.log
-logs/A2TrumMafia.log
-logs/A3TrumMafia.log
-logs/A4TrumMafia.log
-logs/A5TrumMafia.log
 node/Vanguard01.exe
 node/Vanguard02.exe
 node/Vanguard03.exe
@@ -50,8 +45,4 @@ TrumMafia/run_with/A3TrumMafia.exe
 TrumMafia/run_with/A4TrumMafia.exe
 TrumMafia/run_with/A5TrumMafia.exe
 watchdog-status.log
-logs/A1TrumMafia.log
-logs/A2TrumMafia.log
-logs/A3TrumMafia.log
-logs/A4TrumMafia.log
-logs/A5TrumMafia.log
+logs/
