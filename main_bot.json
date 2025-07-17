@@ -1,0 +1,29 @@
+{
+  "bots": [
+    {
+      "name": "A1TrumMafia",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/A1TrumMafia.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/run_with/A1TrumMafia.exe"
+    },
+    {
+      "name": "A2TrumMafia",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/A2TrumMafia.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/run_with/A2TrumMafia.exe"
+    },
+    {
+      "name": "A3TrumMafia",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/A3TrumMafia.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/run_with/A3TrumMafia.exe"
+    },
+    {
+      "name": "A4TrumMafia",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/A4TrumMafia.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/run_with/A4TrumMafia.exe"
+    },
+    {
+      "name": "A5TrumMafia",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/A5TrumMafia.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/run_with/A5TrumMafia.exe"
+    }
+  ]
+}
