@@ -69,7 +69,7 @@ python watchdog.py
 **✴ Thì bot sẽ được tắt (terminate) và chạy lại**
 
 
-# 📜 4. Quản lý ```watchdog-status.log```
+# 📜 4. Quản lý `watchdog-status.log`
 
 **✦● File watchdog-status.log sẽ ghi toàn bộ trạng thái giám sát**
 
