@@ -11,7 +11,8 @@ const USERNAME = '${username}';
 const INVENTORY_PORT = ${port};
 const SERVER_HOST = 'mc.luckyvn.com';
 const MINECRAFT_VERSION = '1.18.2';
-const LOG_FILE = path.join(__dirname, 'logs', \`\${USERNAME}.log\`);
+const LOG_DIR = 'C:/Users/Administrator/Desktop/bot_manager/logs';
+const LOG_FILE = path.join(LOG_DIR, \`\${USERNAME}.log\`);
 const MAX_RECONNECT_ATTEMPTS = 10;
 
 let bot;
@@ -22,8 +23,7 @@ let menuOpened = false;
 let inGame = false;
 let webInventoryServerStarted = false;
 
-const logsDir = path.dirname(LOG_FILE);
-if (!fs.existsSync(logsDir)) fs.mkdirSync(logsDir);
+if (!fs.existsSync(LOG_DIR)) fs.mkdirSync(LOG_DIR, { recursive: true });
 
 setInterval(() => {
   try {
@@ -180,10 +180,9 @@ for (let i = 1; i <= 40; i++) {
   const num = i.toString().padStart(2, '0');
   const username = `Vanguard${num}`;
   const port = 5000 + i;
-
+  const filePath = path.join(__dirname, `${username}.js`);
   const code = template(username, port);
-  const filePath = path.join(__dirname, `Vanguard${num}.js`);
 
   fs.writeFileSync(filePath, code, 'utf8');
-  console.log(`✅ Đã tạo: Vanguard${num}.js`);
+  console.log(`✅ Đã tạo: ${username}.js`);
 }

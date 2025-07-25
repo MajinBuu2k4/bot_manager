@@ -24,6 +24,81 @@
       "name": "A5TrumMafia",
       "path": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/A5TrumMafia.js",
       "run_with": "C:/Users/Administrator/Desktop/bot_manager/TrumMafia/run_with/A5TrumMafia.exe"
+    },
+    {
+      "name": "Vanguard01",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard01.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard01.exe"
+    },
+    {
+      "name": "Vanguard02",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard02.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard02.exe"
+    },
+    {
+      "name": "Vanguard03",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard03.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard03.exe"
+    },
+    {
+      "name": "Vanguard04",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard04.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard04.exe"
+    },
+    {
+      "name": "Vanguard05",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard05.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard05.exe"
+    },
+    {
+      "name": "Vanguard06",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard06.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard06.exe"
+    },
+    {
+      "name": "Vanguard07",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard07.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard07.exe"
+    },
+    {
+      "name": "Vanguard08",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard08.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard08.exe"
+    },
+    {
+      "name": "Vanguard09",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard09.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard09.exe"
+    },
+    {
+      "name": "Vanguard10",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard10.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard10.exe"
+    },
+    {
+      "name": "Vanguard11",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard11.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard11.exe"
+    },
+    {
+      "name": "Vanguard12",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard12.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard12.exe"
+    },
+    {
+      "name": "Vanguard13",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard13.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard13.exe"
+    },
+    {
+      "name": "Vanguard14",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard14.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard14.exe"
+    },
+    {
+      "name": "Vanguard15",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/bots/Vanguard15.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/node/Vanguard15.exe"
     }
   ]
 }

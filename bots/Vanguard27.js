@@ -8,7 +8,8 @@ const USERNAME = 'Vanguard27';
 const INVENTORY_PORT = 5027;
 const SERVER_HOST = 'mc.luckyvn.com';
 const MINECRAFT_VERSION = '1.18.2';
-const LOG_FILE = path.join(__dirname, 'logs', `${USERNAME}.log`);
+const LOG_DIR = 'C:/Users/Administrator/Desktop/bot_manager/logs';
+const LOG_FILE = path.join(LOG_DIR, `${USERNAME}.log`);
 const MAX_RECONNECT_ATTEMPTS = 10;
 
 let bot;
@@ -19,8 +20,7 @@ let menuOpened = false;
 let inGame = false;
 let webInventoryServerStarted = false;
 
-const logsDir = path.dirname(LOG_FILE);
-if (!fs.existsSync(logsDir)) fs.mkdirSync(logsDir);
+if (!fs.existsSync(LOG_DIR)) fs.mkdirSync(LOG_DIR, { recursive: true });
 
 setInterval(() => {
   try {
