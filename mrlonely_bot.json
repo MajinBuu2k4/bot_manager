@@ -1,0 +1,54 @@
+{
+  "bots": [
+    {
+      "name": "1mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/1mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/run_with/1mrlonely.exe"
+    },
+    {
+      "name": "11mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/11mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/run_with/11mrlonely.exe"
+    },
+    {
+      "name": "111mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/111mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/run_with/111mrlonely.exe"
+    },
+    {
+      "name": "1111mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/1111mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/run_with/1111mrlonely.exe"
+    },
+    {
+      "name": "11111mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/11111mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/1mrlonely/run_with/11111mrlonely.exe"
+    },
+    {
+      "name": "2mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/2mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/run_with/2mrlonely.exe"
+    },
+    {
+      "name": "22mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/22mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/run_with/22mrlonely.exe"
+    },
+    {
+      "name": "222mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/222mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/run_with/222mrlonely.exe"
+    },
+    {
+      "name": "2222mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/2222mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/run_with/2222mrlonely.exe"
+    },
+    {
+      "name": "22222mrlonely",
+      "path": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/22222mrlonely.js",
+      "run_with": "C:/Users/Administrator/Desktop/bot_manager/2mrlonely/run_with/22222mrlonely.exe"
+    }
+  ]
+}
