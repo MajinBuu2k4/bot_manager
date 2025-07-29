@@ -1,11 +1,9 @@
 
 const mineflayer = require('mineflayer');
-const webInventory = require('mineflayer-web-inventory');
 const fs = require('fs');
 const path = require('path');
 
 const USERNAME = 'Vanguard26';
-const INVENTORY_PORT = 5026;
 const SERVER_HOST = 'mc.luckyvn.com';
 const MINECRAFT_VERSION = '1.18.2';
 const LOG_DIR = 'C:/Users/Administrator/Desktop/bot_manager/logs';
@@ -14,15 +12,15 @@ const MAX_RECONNECT_ATTEMPTS = 10;
 
 let bot;
 let checkClockInterval;
+let logInterval;
 let reconnectAttempts = 0;
 let loggedIn = false;
 let menuOpened = false;
 let inGame = false;
-let webInventoryServerStarted = false;
 
 if (!fs.existsSync(LOG_DIR)) fs.mkdirSync(LOG_DIR, { recursive: true });
 
-setInterval(() => {
+logInterval = setInterval(() => {
   try {
     let state = 'ALIVE';
     if (inGame) state = 'ALIVE-INGAME';
@@ -43,17 +41,16 @@ function createBot() {
     host: SERVER_HOST,
     username: USERNAME,
     version: MINECRAFT_VERSION,
+    viewDistance: 'tiny',
   });
 
   bot.once('spawn', () => {
     reconnectAttempts = 0;
     console.log("🟢 Bot đã vào game, chờ login...");
 
-    if (!webInventoryServerStarted) {
-      webInventory(bot, { port: INVENTORY_PORT });
-      webInventoryServerStarted = true;
-      console.log(`🌐 Xem inventory tại: http://localhost:${INVENTORY_PORT}`);
-    }
+    bot.on('physicTick', () => {
+      for (const id in bot.entities) delete bot.entities[id];
+    });
 
     checkClockInterval = setInterval(() => {
       if (loggedIn && !menuOpened) {
@@ -68,8 +65,11 @@ function createBot() {
 
   bot.on('message', (message) => {
     const msg = message.toString();
-    if (message.toAnsi) console.log(message.toAnsi());
-    else console.log(msg);
+
+    // Chỉ log tin nhắn bot gửi
+    if (msg.includes(USERNAME + ':')) {
+      console.log(msg);
+    }
 
     if (msg.includes('/login') && !loggedIn) {
       bot.chat('/login Phuc2005');
@@ -125,10 +125,11 @@ function createBot() {
 
   bot.on('end', () => {
     clearInterval(checkClockInterval);
+    clearInterval(logInterval);
     reconnectAttempts++;
     console.log(`❌ Mất kết nối (lần thử ${reconnectAttempts}/10)`);
 
-    if (reconnectAttempts >= 10) {
+    if (reconnectAttempts >= MAX_RECONNECT_ATTEMPTS) {
       console.log("🛑 Quá số lần reconnect, dừng bot");
       return process.exit(1);
     }
@@ -140,6 +141,7 @@ function createBot() {
 
   bot.on('kicked', (reason) => {
     clearInterval(checkClockInterval);
+    clearInterval(logInterval);
     console.log("❌ Bị kick:", reason);
 
     if (reason.includes("đang kết nối") || reason.includes("already connected")) {

@@ -1,9 +1,8 @@
-
 const mineflayer = require('mineflayer');
 const fs = require('fs');
 const path = require('path');
 
-const USERNAME = 'Vanguard30';
+const USERNAME = '222mrlonely';
 const SERVER_HOST = 'mc.luckyvn.com';
 const MINECRAFT_VERSION = '1.18.2';
 const LOG_DIR = 'C:/Users/Administrator/Desktop/bot_manager/logs';
@@ -66,7 +65,6 @@ function createBot() {
   bot.on('message', (message) => {
     const msg = message.toString();
 
-    // Chỉ log tin nhắn bot gửi
     if (msg.includes(USERNAME + ':')) {
       console.log(msg);
     }

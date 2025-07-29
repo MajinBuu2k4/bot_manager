@@ -1,13 +1,16 @@
+const fs = require('fs');
+const path = require('path');
 
+const template = (username) => `
 const mineflayer = require('mineflayer');
 const fs = require('fs');
 const path = require('path');
 
-const USERNAME = 'Vanguard30';
+const USERNAME = '${username}';
 const SERVER_HOST = 'mc.luckyvn.com';
 const MINECRAFT_VERSION = '1.18.2';
 const LOG_DIR = 'C:/Users/Administrator/Desktop/bot_manager/logs';
-const LOG_FILE = path.join(LOG_DIR, `${USERNAME}.log`);
+const LOG_FILE = path.join(LOG_DIR, \`\${USERNAME}.log\`);
 const MAX_RECONNECT_ATTEMPTS = 10;
 
 let bot;
@@ -26,7 +29,7 @@ logInterval = setInterval(() => {
     if (inGame) state = 'ALIVE-INGAME';
     else if (menuOpened) state = 'ALIVE-MENU';
     else if (loggedIn) state = 'ALIVE-LOBBY';
-    fs.writeFileSync(LOG_FILE, `${state} ${new Date().toISOString()}`);
+    fs.writeFileSync(LOG_FILE, \`\${state} \${new Date().toISOString()}\`);
   } catch (err) {
     console.error("❗ Không thể ghi log:", err.message);
   }
@@ -95,17 +98,17 @@ function createBot() {
       }, 2500);
     }
 
-    if (msg.includes(`${USERNAME} Đã tham gia máy chủ!`)) {
+    if (msg.includes(\`\${USERNAME} Đã tham gia máy chủ!\`)) {
       inGame = true;
       console.log("✅ Bot đã vào In-Game!");
     }
 
-    const autoChaoRegex = /Chào mừng \[ (.*?) ] lần đầu tiên đến/;
+    const autoChaoRegex = /Chào mừng \\[ (.*?) ] lần đầu tiên đến/;
     const chaoMatch = msg.match(autoChaoRegex);
     if (chaoMatch && chaoMatch[1]) {
       const playerName = chaoMatch[1];
-      bot.chat(`Xin chào bạn ${playerName}`);
-      console.log(`👋 Đã chào người chơi mới: ${playerName}`);
+      bot.chat(\`Xin chào bạn \${playerName}\`);
+      console.log(\`👋 Đã chào người chơi mới: \${playerName}\`);
     }
   });
 
@@ -127,7 +130,7 @@ function createBot() {
     clearInterval(checkClockInterval);
     clearInterval(logInterval);
     reconnectAttempts++;
-    console.log(`❌ Mất kết nối (lần thử ${reconnectAttempts}/10)`);
+    console.log(\`❌ Mất kết nối (lần thử \${reconnectAttempts}/10)\`);
 
     if (reconnectAttempts >= MAX_RECONNECT_ATTEMPTS) {
       console.log("🛑 Quá số lần reconnect, dừng bot");
@@ -135,7 +138,7 @@ function createBot() {
     }
 
     const delay = Math.min(reconnectAttempts, 10) * 5000;
-    console.log(`⌛ Thử kết nối lại sau ${delay / 1000}s...`);
+    console.log(\`⌛ Thử kết nối lại sau \${delay / 1000}s...\`);
     setTimeout(safeCreateBot, delay);
   });
 
@@ -173,3 +176,13 @@ function safeCreateBot() {
 }
 
 safeCreateBot();
+`;
+
+for (let i = 1; i <= 40; i++) {
+  const num = i.toString().padStart(2, '0');
+  const username = `Vanguard${num}`;
+  const filePath = path.join(__dirname, `${username}.js`);
+  const code = template(username);
+  fs.writeFileSync(filePath, code, 'utf8');
+  console.log(`✅ Đã tạo: ${username}.js`);
+}
