@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ProxifierProfile version="102" platform="Windows" product_id="0" product_minver="400">
+	<Options>
+		<Resolve>
+			<AutoModeDetection enabled="true" />
+			<ViaProxy enabled="false" />
+			<BlockNonATypes enabled="false" />
+			<ExclusionList OnlyFromListMode="false">%ComputerName%; localhost; *.local</ExclusionList>
+			<DnsUdpMode>0</DnsUdpMode>
+		</Resolve>
+		<Encryption mode="basic" />
+		<ConnectionLoopDetection enabled="true" resolve="true" />
+		<Udp mode="mode_bypass" />
+		<LeakPreventionMode enabled="false" />
+		<ProcessOtherUsers enabled="true" />
+		<ProcessServices enabled="true" />
+		<HandleDirectConnections enabled="false" />
+		<HttpProxiesSupport enabled="true" />
+	</Options>
+	<ProxyList>
+		<Proxy id="104" type="SOCKS5">
+			<Authentication enabled="true">
+				<Password>AAACbKkbszf7TDqooPFbEenV5AETsgga9XcVT46Pw8XhMrE=</Password>
+				<Username>vanphuc</Username>
+			</Authentication>
+			<Options>48</Options>
+			<Port>39297</Port>
+			<Address>14.244.15.251</Address>
+		</Proxy>
+		<Proxy id="105" type="SOCKS5">
+			<Authentication enabled="true">
+				<Password>AAACbKkbszf7TDqooPFbEenV5Gt9D+xby0NGy3S9NEwNTyQ=</Password>
+				<Username>vanphuc</Username>
+			</Authentication>
+			<Options>48</Options>
+			<Port>1</Port>
+			<Address>-</Address>
+		</Proxy>
+		<Proxy id="107" type="SOCKS5">
+			<Authentication enabled="true">
+				<Password>AAACbKkbszf7TDqooPFbEenV5D5L+YIgb4Zwo6sN+0oThrk=</Password>
+				<Username>vanphuc</Username>
+			</Authentication>
+			<Options>48</Options>
+			<Port>1</Port>
+			<Address>-</Address>
+		</Proxy>
+		<Proxy id="108" type="SOCKS5">
+			<Authentication enabled="true">
+				<Password>AAACbKkbszf7TDqooPFbEenV5Gt9D+xby0NGy3S9NEwNTyQ=</Password>
+				<Username>vanphuc</Username>
+			</Authentication>
+			<Options>48</Options>
+			<Port>32939</Port>
+			<Address>123.18.50.215</Address>
+		</Proxy>
+		<Proxy id="109" type="SOCKS5">
+			<Authentication enabled="true">
+				<Password>AAACbKkbszf7TDqooPFbEenV5AETsgga9XcVT46Pw8XhMrE=</Password>
+				<Username>vanphuc</Username>
+			</Authentication>
+			<Options>48</Options>
+			<Port>28876</Port>
+			<Address>14.181.47.136</Address>
+		</Proxy>
+		<Proxy id="110" type="SOCKS5">
+			<Authentication enabled="true">
+				<Password>AAACbKkbszf7TDqooPFbEenV5AETsgga9XcVT46Pw8XhMrE=</Password>
+				<Username>vanphuc</Username>
+			</Authentication>
+			<Options>48</Options>
+			<Port>43638</Port>
+			<Address>14.175.73.190</Address>
+		</Proxy>
+	</ProxyList>
+	<ChainList />
+	<RuleList>
+		<Rule enabled="true">
+			<Action type="Direct" />
+			<Targets>localhost; 127.0.0.1; %ComputerName%; ::1</Targets>
+			<Name>Localhost</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">108</Action>
+			<Applications>javaw1.exe; javaw11.exe; javaw111.exe; javaw1111.exe; javaw11111.exe</Applications>
+			<Name>Proxy1</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">109</Action>
+			<Applications>javaw2.exe; javaw22.exe; javaw222.exe; javaw2222.exe; javaw22222.exe</Applications>
+			<Name>Proxy2</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">110</Action>
+			<Applications>javaw3.exe; javaw33.exe; javaw333.exe; javaw3333.exe; javaw33333.exe</Applications>
+			<Name>Proxy3</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Direct" />
+			<Applications>1javaw.exe; 2javaw.exe; 3javaw.exe; 4javaw.exe</Applications>
+			<Name>A</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Direct" />
+			<Applications>6javaw.exe; 7javaw.exe; 8javaw.exe; 9javaw.exe; 10javaw.exe</Applications>
+			<Name>B</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Direct" />
+			<Applications>11javaw.exe; 12javaw.exe; 13javaw.exe; 14javaw.exe; 15javaw.exe</Applications>
+			<Name>C</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Direct" />
+			<Applications>16javaw.exe; 17javaw.exe; 18javaw.exe; 19javaw.exe; 20javaw.exe</Applications>
+			<Name>D</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">104</Action>
+			<Applications>javawVanguard.exe</Applications>
+			<Name>Vanguard</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">108</Action>
+			<Applications>vanguard01.exe; vanguard02.exe; vanguard04.exe; vanguard05.exe; vanguard03.exe</Applications>
+			<Name>Proxy1</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">109</Action>
+			<Applications>vanguard06.exe; vanguard07.exe; vanguard08.exe; vanguard09.exe; vanguard10.exe</Applications>
+			<Name>Proxy2</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">110</Action>
+			<Applications>vanguard11.exe; vanguard12.exe; vanguard13.exe; vanguard14.exe; vanguard15.exe</Applications>
+			<Name>Proxy3</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Proxy">104</Action>
+			<Applications>vanguard16.exe; vanguard17.exe; vanguard18.exe; vanguard19.exe; vanguard20.exe; vanguard21.exe; vanguard22.exe; vanguard23.exe; vanguard24.exe; vanguard25.exe</Applications>
+			<Name>Proxy4</Name>
+		</Rule>
+		<Rule enabled="true">
+			<Action type="Direct" />
+			<Name>Default</Name>
+		</Rule>
+	</RuleList>
+</ProxifierProfile>
